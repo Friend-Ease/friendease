@@ -30,7 +30,7 @@ function Index() {
           <Button asChild variant="hero" size="lg" className="mt-8"><Link to="/preferences">Find a place <ArrowRight /></Link></Button>
           <div className="mt-8 flex items-center gap-3 text-sm text-muted-foreground"><div className="flex -space-x-2"><span className="size-8 rounded-full border-2 border-background bg-accent"/><span className="size-8 rounded-full border-2 border-background bg-secondary"/><span className="size-8 rounded-full border-2 border-background bg-success-soft"/></div>Built for the whole group, never just one person.</div>
         </div>
-        <div className="relative overflow-hidden rounded-lg bg-secondary shadow-2xl"><img src={heroAsset.url} alt="A diverse group of friends using FriendEase to plan an accessible outing" className="aspect-[16/10] h-full w-full object-cover" /></div>
+        <div className="relative overflow-hidden rounded-lg bg-secondary shadow-2xl"><img src={heroAsset.url} alt="A diverse group of friends using FriendEase to plan an accessible outing" className="aspect-[16/10] h-full w-full object-contain" /></div>
       </section>
       <section className="border-y bg-secondary/60 py-20">
         <div className="mx-auto max-w-7xl px-5 lg:px-8"><div className="max-w-2xl"><p className="text-sm font-bold uppercase text-primary">Designed around dignity</p><h2 className="mt-3 text-3xl font-bold">Everyone belongs in the plan.</h2></div>
